@@ -343,7 +343,6 @@ footer {
   padding: 5rem 0;
 }
 .carousel-inner img {
-  width: 28%;
   height: 100%;
   float: right;
   margin-right: 80px;
@@ -371,7 +370,4 @@ height: 100%;
   border-bottom: 0px solid transparent;
   opacity: .5;
   transition: opacity .6s ease;
-}
-.helloworld{
-  
 }
