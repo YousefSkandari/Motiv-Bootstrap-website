@@ -141,8 +141,8 @@ body{
 }
 @media (max-width: 600px) {
   .masthead { 
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../image/Space_Grey.png");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../image/Space_Grey.png"); 
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../image/app_mockup_banner.png");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../image/app_mockup_banner.png"); 
   }
   .masthead{
     margin-top:25px;
