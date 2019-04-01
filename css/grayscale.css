@@ -5,11 +5,11 @@
  */
 
 .gutter{
-  margin:30px;
-  margin-left:inherit;
-  margin-right:auto;
+  margin:0px;
 }
-
+#feature-text{
+  font-size: 12px;
+}
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -93,13 +93,14 @@
 }
 body{ 
   overflow-x: hidden;
+  color:#8c8c8c;
 }
 .masthead {
   position: relative;
   width: auto;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 0rem 0 25rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../image/app_mockup3.png");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../image/app_mockup3.png");
   background-position: center top;
@@ -134,14 +135,17 @@ body{
   .masthead h1  {
     font-size: 2rem;
     line-height: 2rem;
-    max-width: 20%;
+    max-width:100%;
   }
   
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .masthead { 
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../image/Space_Grey.png");
     background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../image/Space_Grey.png"); 
+  }
+  .masthead{
+    margin-top:25px;
   }
   body{ 
     overflow-x: hidden;
@@ -199,13 +203,18 @@ body{
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 0.2rem;
   margin-left:0rem;
   margin-right:0rem;
 }
 .big-icon {
-  font-size: 50px;
-  color:#00132E;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+}
+.text-card-title{
+  font-size: 25px;
+  color:#fff;
+  text-align-last:center;
 }
 .projects-section {
   padding: 10rem 0;
@@ -332,4 +341,37 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+.carousel-inner img {
+  width: 28%;
+  height: 100%;
+  float: right;
+  margin-right: 80px;
+
+}
+.carousel-item{
+position: relative;
+float: left;
+width: 100%;
+height: 100%;
+}
+.indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+.helloworld{
+  
 }
